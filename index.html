@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script defer src="scripts/main.js"></script>
+  <link rel="stylesheet" type="text/css" href="./styles/main.scss" />
+  <title>LegalBet</title>
+</head>
+
+<body>
+  <div class="app">
+    <div class="wrapper">
+      <header class="header_container">
+        <div class="header__user">
+          <img class="header__user_avatar" src="./assets/avatar.png" />
+          <div class="header__user_info">
+            <span class="header__user_info_name">Владимир Вуйтек</span>
+            <div class="bet_info_mobile">
+              <div class="bet_info__item_mobile green">647</div>
+              <div class="bet_info__item_mobile_slash">/</div>
+              <div class="bet_info__item_mobile">29</div>
+              <div class="bet_info__item_mobile_slash">/</div>
+              <div class="bet_info__item_mobile red">413</div>
+              <div class="bet_info__item_mobile_slash">/</div>
+              <div class="bet_info__item_mobile">ROI 23,9%</div>
+            </div>
+            <p class="header__user_info_statistics">Статистика за последние 30 дней</p>
+          </div>
+        </div>
+        <div class="bet_info">
+          <div class="bet_info__item">
+            <p class="bet_info__item_title green">+</p>
+            <div class="bet_info__item_value green">647</div>
+          </div>
+          <div class="bet_info__item">
+            <p class="bet_info__item_title grey">=</p>
+            <div class="bet_info__item_value grey">29</div>
+          </div>
+          <div class="bet_info__item">
+            <p class="bet_info__item_title red">-</p>
+            <div class="bet_info__item_value red">413</div>
+          </div>
+          <div class="bet_info__item">
+            <p class="bet_info__item_title">ROI, %</p>
+            <div class="bet_info__item_value green">23,9%</div>
+          </div>
+          <div class="bet_info__item">
+            <p class="bet_info__item_title">Прибыль</p>
+            <div class="bet_info__item_value green">+22 820</div>
+          </div>
+        </div>
+        <div class="bet_info_mobile_add">
+          <div class="bet_info_mobile_add_date grey">
+            30 дней
+          </div>
+          <div class="bet_info_mobile_add_profit green">
+            +22 820
+          </div>
+        </div>
+      </header>
+      <main class="main_container">
+        <p class="main_container__content">В Кубке страны команда Унаи Эмери бессовестно размялась на «Виктории» из
+          Ла-Коруньи (8:0). При этом серьёзные
+          соперники: «Севилья», «Барселона» (даже кризисная) и «МЮ» (ещё более кризисный) — били «Вильярреал». ЛЧ не
+          турнир для Эмери. Он гроссмейстер убогой ЛЕ.
+          Поэтому у «Аталанты» есть шансы. Ей необходимо играть лишь на победу. Только выигрыш выводит её в плей-офф ЛЧ.
+          А
+          поражение в комплекте с победой «Янг Бойз» над «МЮ» оставляет бергамасков без еврокубковой весны. Гасперини
+          вполне по силам одолеть команду Эмери. «Аталанта» уже обыгрывала недавно «Юве» и «Наполи». Поставлю на победу
+          итальянского клуба.</p>
+        <button class="main_container__button" onclick="showText()"><img class="main_container__button_icon"
+            src="./assets/arrow.svg" /></button>
+      </main>
+    </div>
+    <footer class="footer_container">
+      <div class="footer_wrapper">
+        <div class="footer_forecast">
+          <div class="footer_forecast__title">Прогноз</div>
+          <div class="footer_forecast__time">Штрафное время: <span>тотал меньше 16,5</span></div>
+        </div>
+        <div class="footer_koeff">
+          <div class="footer_koeff__container">
+            <img src="./assets/one_x_bet.svg" />
+            <div class="footer_koeff__container_info">
+              <p class="footer_koeff__container_info_title">Коэффициент</p>
+              <p class="footer_koeff__container_info_title_mobile">Кэф</p>
+              <span class="footer_koeff__container_info_value">3.20</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="button_container">
+        Сделать ставку
+      </button>
+    </footer>
+  </div>
+</body>
+
+</html>
